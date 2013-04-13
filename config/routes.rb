@@ -1,4 +1,18 @@
 WOIS::Application.routes.draw do
+  get "static_pages/home"
+
+  get "static_pages/about"
+
+  get "static_pages/agenda"
+
+  get "static_pages/bios"
+
+  get "static_pages/venue"
+
+  get "static_pages/gallery"
+
+  get "static_pages/press"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
