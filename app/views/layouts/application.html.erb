@@ -10,28 +10,10 @@
     	<![endif]-->
 	</head>
 	<body>
-		<header class="navbar navbar-fixed-top navbar-inverse">
-			<div class="navbar-inner">
-				<div class="container">
-					<%= link_to "home", '#', id:"logo" %>
-					<nav>
-						<ul class="nav pull-right">
-							<li><%= link_to "Home", '#' %></li>
-							<li><%= link_to "About", '#' %></li>
-							<li><%= link_to "Agenda", '#' %></li>
-							<li><%= link_to "Bios", '#' %></li>
-							<li><%= link_to "Venue and Hotel", '#' %></li>
-							<li><%= link_to "Gallery", '#' %></li>
-							<li><%= link_to "Press", '#' %></li>
-							<li><%= link_to "Register", '#' %></li>
-							<li><%= link_to "Blog", '#' %></li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-		</header>
+		<%= render 'layouts/header' %>
 		<div class="container">
 			<%= yield %>
+			<%= render 'layouts/footer' %>
 		</div>
 	</body>
 </html>
