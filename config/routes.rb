@@ -1,19 +1,19 @@
 WOIS::Application.routes.draw do
   get "static_pages/home"
 
-  get "static_pages/about"
+  match '/about', to: 'static_pages#about'
 
-  get "static_pages/agenda"
+  match '/agenda', to: 'static_pages#agenda'
 
-  get "static_pages/bios"
-
-  get "static_pages/venue"
-
+  match '/bios', to: 'static_pages#bios'
+  
+  match '/venue', to: 'static_pages#venue'
+  
   get "static_pages/gallery"
 
-  get "static_pages/press"
+  match '/press', to:'static_pages#press'
 
-  get "static_pages/sponsors"
+  match '/sponsors', to:'static_pages#sponsors'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
