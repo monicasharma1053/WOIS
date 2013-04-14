@@ -13,6 +13,8 @@ WOIS::Application.routes.draw do
 
   get "static_pages/press"
 
+  get "static_pages/sponsors"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
