@@ -7,10 +7,10 @@
 				
 					<nav>
 						<ul class="nav pull-left">
-							<%= link_to image_tag("summit.png", size:"100x100"), '#', id:"logo"%>
+							<%= link_to image_tag("summit.png", size:"100x100"), root_path, id:"logo"%>
 						</ul>
 						<ul class="nav pull-right">
-							<li><%= link_to "Home", '#', id:"menu"%></li>
+							<li><%= link_to "Home", root_path, id:"menu"%></li>
 							<li><%= link_to "About", about_path , id:"menu"%></li>
 
 							<li class="dropdown" id:"menu">
@@ -40,7 +40,7 @@
 							<li><%= link_to "Gallery", 'https://www.facebook.com/WeOwnItSummit/photos_albums', target:'_blank', id:"menu" %></li>
 							<li><%= link_to "Press", press_path, id:"menu" %></li>
 							<li><%= link_to "Register", 'http://wois.eventbrite.com/', target:'_blank', id:"menu" %></li>
-							<li><%= link_to "Sponsors", sponsors_path, id:"menu" %></li>
+							<li><%= link_to "Sponsors", '#', id:"menu" %></li>
 							<li><%= link_to "Blog", '#', id:"menu" %></li>
 					
 							<li><%= link_to image_tag("green_twitter.png", size:"40x40"), 'https://twitter.com/WeOwnItSummit', id:"sm" %></li>
