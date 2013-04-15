@@ -172,9 +172,31 @@ footer {
 	color:green;
 }
 
+#keynotes table {
+	border:2px solid green; 
+}
+
+#keynotes table tr td {
+	border:2px solid green;
+	width:600px;
+}
+
+#keynotes.key-img {
+	
+	width:250px;
+}
+
 #keynotes table p {
 	text-align: justify;
 	font-size:12px;
+}
+
+#collabs {
+	font-size:10px;
+}
+
+#collabs tr td{
+	width:250px;
 }
 
 #collabs ul.horizontal li {
