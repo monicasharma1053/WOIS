@@ -149,7 +149,22 @@ footer {
 	position:relative;
 	width:200px;
 	height:200px;
+	
 
+}
+
+#hotel{
+	padding-top:2em;
+	position:relative;
+	width:200px;
+	height:200px;
+	padding-left:5em;
+
+}
+
+#hotel-info h3{
+	padding-top:2em;
+	text-align:center;
 }
 
 #keynotes h3 {
@@ -161,3 +176,13 @@ footer {
 	text-align: justify;
 	font-size:12px;
 }
+
+#collabs ul.horizontal li {
+	display: inline;
+	margin:0;
+	padding:0;
+	text-align:left;
+}
+
+
+
