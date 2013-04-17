@@ -45,10 +45,12 @@ textarea {
 
 }
 
+
 ul.dropdown-menu:hover{
 	background-color:green; 
 	
 }
+
 
 
 /* header */
@@ -211,6 +213,10 @@ footer {
 }
 
 
+#agenda h2{
+
+	color:green;
+}
 
 #agenda h4 {
 	text-align:center;
@@ -233,8 +239,13 @@ footer {
 }
 
 #schedule td {
+	vertical-align:top;
 	border:2px solid green;
 	width:600px;
+}
+
+#pitch{
+	text-align:center;
 }
 
 #past-press{
