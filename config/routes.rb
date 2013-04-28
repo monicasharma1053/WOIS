@@ -3,6 +3,8 @@ WOIS::Application.routes.draw do
 
   match '/about', to: 'static_pages#about'
 
+  match '/pitch', to: 'static_pages#pitch'
+
   match '/agenda', to: 'static_pages#agenda'
 
   match '/bios', to: 'static_pages#bios'
