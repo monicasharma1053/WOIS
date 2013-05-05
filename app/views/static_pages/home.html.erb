@@ -1,24 +1,15 @@
 
 
+
 <div class="center hero-unit">
-
-  <h1>We Own It Summit</h1>
-
-  <h2>
-    June 27th and June 28th, 2013
-    <br>
-    London, United Kingdom
-  </h2>
-
-  <%= link_to "Register", 'http://wois.eventbrite.com/', target:'_blank', class: "btn btn-large btn-primary" %>
-  	<br>
-  	<br>
- 
-  	<p>
+	<h1>We Own It Summit</h1>
+	<h2>June 27th and June 28th, 2013<br>
+    London, United Kingdom</h2>
+     <%= link_to "Register", 'http://wois.eventbrite.com/', target:'_blank', class: "btn btn-large btn-primary" %>
+    <p>
 		A Summit of leaders to explore women's participation in high-growth businesses and identify solutions to move us forward.
-	</p>
 	<div id="home-text">
-		<p>We know the motivations.
+	<p>We know the motivations.
 		<br>
 		We know the metrics.
 		<br>
@@ -28,40 +19,111 @@
 		<br>
 		We come together to own the solutions.
 		<br>
-		</p>
+	</p>
 	</div>
 	<p>
-		Attendees include entrepreneurs, investors, and leaders of organizations and institutions advocating, promoting, accelerating and researching women's participation in high-growth entrepreneurship.<strong> Understanding the cycle and system necessary for this promotion, we are invested in women leaders as aspiring entrepreneurs, founders, CEOs, C-Suite managers, owners, investors, and board members.</strong> 
+		Attendees include entrepreneurs, investors, and leaders of organizations and institutions advocating, promoting, accelerating and researching women's participation in high-growth entrepreneurship. Understanding the cycle and system necessary for this promotion, we are invested in women leaders as aspiring entrepreneurs, founders, CEOs, C-Suite managers, owners, investors, and board members.
 	</p>
-	<br>
-	<%= link_to "Register", 'http://wois.eventbrite.com/', target:'_blank', class: "btn btn-large btn-primary" %>
-	<p>
-	<br>
-	<strong>Applications for the <%= link_to("Global Pitch Competition", 'pitch') %> Now Being Accepted!</strong>
-	</p>
-</div>
+</div><!-- .hero-unit -->
 
-<div style="position:absolute; top:90px; right:30px;">
-<div id="sponsors-home">
-	<h4>2013 Summit Sponsors</h4>
-	<h3>Platinum</h3>
-	<%= link_to image_tag("thomson.png", size:"170x170"), 'http://thomsonreuters.com/', target:'_blank', id:"thomson-h"%>
+
+
+
+<div class="row">
+	<div class="span4">
+		<h2>Global Pitch Competition</h2>
+		<p>Seeking the most promising high-growth women-led companies from around the world to present in London, UK on June 27th in front of an audience of preeminent venture capitalists and global invests. <%= link_to "Find out more", pitch_path, target:'_blank' %>
+		<p><a href="https://gust.com/r/via_group/53762?conversationId=242922" class="btn btn-second" target='_blank'>APPLY NOW</a>
+		</p>
+	</div>
+
+	<div class="span4">
+		<h2>Watch our Convos</h2>
+		<p>
+			With the Support of PSDNetworks, we've come together to give you insights from some of the most influential individuals 
+			<a class="btn btn-second" href="http://www.youtube.com/weownitsummit">Watch</a>
+		</p>
+	</div>
+
+
+	<div class="span4">
+		<h2>People are Talking</h2>
+		<script type="text/javascript">
+		quotes=[];
+		authors=[];
+		quotes[0]= "We Own It is a unique opportunity to connect with accomplished entrepreneurs, aspiring entrepreneurs, and individuals in all fields who are passionate about helping women entrepreneurs reach their goals. It is an honor to be part of this global gathering of smart, accomplished, dynamic individuals who share the same objectives.";
+		authors[0]="Ruth Owades";
 	
+		
+		index = Math.floor(Math.random() * quotes.length);
+		
+		document.write("<DL>\n");
+		document.write("<DT>"+ quotes[index]+"\"\n");
+		document.write("<DD>"+ "-- " + authors[index] + "\n");
+		document.write("</DL>\n");
+		</script>
+	</div>
 </div>
+
+<ul class="nav nav-list">
+	<li class="divider"></li>
+</ul>
+
+
+<div class="row">
+	<h2>Sponsors</h2>
+	<div class="span2">
+		<h4>Platinum</h4>
+		<p>
+				<%= link_to image_tag("thomson.png"), 'http://thomsonreuters.com/', target:'_blank', id:"homesponsors"%>
+
+		</p>
+	</div>
+
+	<div class="span2">
+		<h4>Gold</h4>
+		<p>
+			<%= link_to image_tag("TSB.jpg"), 'http://www.innovateuk.org/', target:'_blank', id:"homesponsors"%>
+		</p>
+	</div>
+
+	<div class="span2">
+		<h4>Silver</h4>
+		<p>
+		</p>
+	</div>
+
+	<div class="span2">
+		<h4>Bronze</h4>
+		<p>
+		</p>
+	</div>
+
+	<div class="span2">
+		<h4>Partners</h4>
+		<p>
+			<%= link_to image_tag("gust.png", size:"50x50"), 'http://gust.com/', target:'_blank', id:"homesponsors"%>
+		</p>
+	</div>
+
+	<div class="span2">
+		<h4>Media Partners</h4>
+		<p>
+		<%= link_to image_tag("tnw.png", size:"50x50"), 'http://thenextwomen.com', target:'_blank'%>
+		</p>
+	</div> 
+
 </div>
 
 
-
-
-<div style="position:absolute; top:250px; right:25px;">
+<div style="position:absolute; top:99px; right:25px;">
 <p>
-<a class="twitter-timeline" href="https://twitter.com/WeOwnItSummit" width="85px" height="736px" data-widget-id="324588213320683520">Tweets by @WeOwnItSummit</a>
+<a class="twitter-timeline" href="https://twitter.com/WeOwnItSummit" width="85px" height="553px" data-widget-id="324588213320683520">Tweets by @WeOwnItSummit</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> 
 </p>
 
 
 
 </div>
-
 
 

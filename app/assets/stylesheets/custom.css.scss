@@ -31,6 +31,10 @@ textarea {
 	background:green;
 }
 
+.btn-second{
+	background:pink;
+}
+
 
 .dropdown{
 	
@@ -56,6 +60,16 @@ ul.dropdown-menu:hover{
 	margin-right:5cm;
 }
 
+.hero-unit p {
+	
+	font-size:14px;
+	line-height:17px;
+
+}
+
+
+
+
 .about{
 	margin-right:3cm;
 	padding-left:0.5cm;
@@ -69,6 +83,8 @@ ul.dropdown-menu:hover{
 	margin: 0px 0px 0px 0px; 
 	border: 0px;
 	padding-top: 1px;
+	height:30px;
+	width:30px;
 	
 	
 	
@@ -362,4 +378,9 @@ text-align:center};
 #thenextwomen2{
 	padding-top:0em;
 	padding-left:24em;
+}
+
+#homesponsors{
+	width:100px;
+	height:100px;
 }
