@@ -40,8 +40,39 @@
 	<div class="span5" align="center">
 		<h2>Watch our Convos</h2>
 		<p>
-			<iframe width="300" height="169" src="http://www.youtube.com/embed/VSMJW-0KsBM" frameborder="0" allowfullscreen></iframe><br>
-			With the support of our wonderful <%= link_to "2013 Collaboration", 'bios#2013 Collaboration', target:'_blank' %> video interviews with key collaboration members, Summit speakers, and outside experts have been conducted to provide thought provoking insight and stimulate the necessary conversations about women and leadership. 
+
+			<script type="text/javascript">
+
+				
+
+				var videos= new Array();
+			
+				videos[0]='<iframe width="300" height="169" src="http://www.youtube.com/embed/m2xw_PfunQ4" frameborder="0" allowfullscreen></iframe>';
+				videos[1]='<iframe width="300" height="169" src="http://www.youtube.com/embed/kTNYPZd0Mvg" frameborder="0" allowfullscreen></iframe>';
+				videos[2]='<iframe width="300" height="169" src="http://www.youtube.com/embed/VSMJW-0KsBM" frameborder="0" allowfullscreen></iframe>';
+				videos[3]='<iframe width="300" height="169" src="http://www.youtube.com/embed/eRBxrOY_oLM" frameborder="0" allowfullscreen></iframe>';
+				videos[4]='<iframe width="300" height="169" src="http://www.youtube.com/embed/Xp4maVy1kW0" frameborder="0" allowfullscreen></iframe>';
+				videos[5]='<iframe width="300" height="169" src="http://www.youtube.com/embed/EBswx2nq9Es" frameborder="0" allowfullscreen></iframe>';
+				videos[6]='<iframe width="300" height="169" src="http://www.youtube.com/embed/5j_SXVj6WB0" frameborder="0" allowfullscreen></iframe>';
+				videos[7]='<iframe width="300" height="169" src="http://www.youtube.com/embed/3iBcOITeEME" frameborder="0" allowfullscreen></iframe>';
+				videos[8]='<iframe width="300" height="169" src="http://www.youtube.com/embed/GuSK2WpcZc0" frameborder="0" allowfullscreen></iframe>';
+				videos[9]='<iframe width="300" height="169" src="http://www.youtube.com/embed/CvYec6dbWyQ" frameborder="0" allowfullscreen></iframe>';
+				videos[10]='<iframe width="300" height="169" src="http://www.youtube.com/embed/tN4ieiVDvFs" frameborder="0" allowfullscreen></iframe>';
+				videos[11]='<iframe width="300" height="169" src="http://www.youtube.com/embed/J0FweoEhwsw" frameborder="0" allowfullscreen></iframe>';
+				videos[12]='<iframe width="300" height="169" src="http://www.youtube.com/embed/kpuoEfoA9rE" frameborder="0" allowfullscreen></iframe>';
+				videos[13]='<iframe width="300" height="169" src="http://www.youtube.com/embed/msn_f_4gSIQ" frameborder="0" allowfullscreen></iframe>';
+				videos[14]='<iframe width="300" height="169" src="http://www.youtube.com/embed/42LHb1YiRsM" frameborder="0" allowfullscreen></iframe>';
+
+				index= Math.floor(Math.random()* videos.length);
+				document.write(videos[index]);
+			</script>
+
+				
+
+			
+		<p>
+			With the support of our wonderful <%= link_to "2013 Collaboration", 'bios#2013 Collaboration', target:'_blank' %> video interviews with key collaboration members, Summit speakers, and outside experts have been conducted to provide thought provoking insight and stimulate the necessary conversations about women and leadership.
+			
 		<p><a class="btn btn-second" href="http://www.youtube.com/weownitsummit">Watch</a>
 		</p>
 	</div>
