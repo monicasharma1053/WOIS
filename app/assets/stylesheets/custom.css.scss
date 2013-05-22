@@ -419,3 +419,46 @@ text-align:center};
 .awards p {
 	text-align:center;
 }
+
+#salon h3 {
+	text-align:left;
+	color:green;
+	font-size:18px;
+}
+
+#salon h4{
+	color:black;
+	font-size:12px;
+}
+
+#salon table {
+	border:2px solid green; 
+}
+
+#salon table tr td {
+	border:2px solid green;
+	width:600px;
+}
+
+#salon.key-img {
+	
+	width:250px;
+}
+
+#salon table p {
+	text-align: justify;
+	font-size:12px;
+}
+
+
+#salon a {
+	color:green;
+}
+
+#salon a:visited {
+	color:green;
+}
+
+#salon a:hover {
+	color:green;
+}
