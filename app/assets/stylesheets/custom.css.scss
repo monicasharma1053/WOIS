@@ -206,11 +206,17 @@ footer {
 }
 
 #keynotes h3 {
+	line-height:16px;
 	text-align:left;
 	color:green;
 }
 
+#keynotes h5{
+	line-height:1px;
+}
+
 #keynotes h4{
+	line-height:0px;
 	color:black;
 	font-size:12px;
 }
@@ -421,17 +427,22 @@ text-align:center};
 }
 
 #salon h3 {
+	padding-top:2px;
 	text-align:left;
 	color:green;
 	font-size:18px;
+	line-height:0px;
 }
 
 #salon h4{
+	line-height:12px;
 	color:black;
 	font-size:12px;
 }
 
 #salon table {
+	
+	padding-bottom:3px;
 	border:2px solid green; 
 }
 
